@@ -2,7 +2,7 @@
   "name": "eataly",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://anddrew914.github.io/Eataly-Delivers",
+  "homepage": "https://anddrew914.github.io/Eataly_Delivers",
   "dependencies": {
     "express": "^4.15.4",
     "react": "^15.6.1",
