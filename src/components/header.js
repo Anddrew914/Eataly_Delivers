@@ -1,4 +1,5 @@
 import React from 'react'
+import Logo from '../images/Eataly-Logo.jpg'
 
 class Header extends React.Component {
   render(){
@@ -6,7 +7,7 @@ class Header extends React.Component {
       <header>
         <nav>
           <div className="row">
-            <img src="/images/Eataly-Logo.jpg" alt="Eataly-Logo" className="logo" />
+            <img src={Logo} alt="Eataly-Logo" className="logo" />
             <ul className="main-nav">
               <li><a href="#">Sign Up</a></li>
               <li><a href="#">Sign In</a></li>
@@ -25,3 +26,5 @@ class Header extends React.Component {
   }
 }
 export default Header
+
+export {Logo}
