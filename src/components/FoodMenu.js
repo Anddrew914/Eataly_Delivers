@@ -15,22 +15,22 @@ class FoodMenu extends Component{
         <ul className="meal-showcase">
           <li>
             <figure className="meal-photo">
-              <img src={image1}/>
+              <img src={image1} alt="meal-1"/>
             </figure>
           </li>
           <li>
             <figure className="meal-photo">
-              <img src={image2}/>
+              <img src={image2} alt="meal-2"/>
             </figure>
           </li>
           <li>
             <figure className="meal-photo">
-              <img src={image3}/>
+              <img src={image3} alt="meal-3"/>
             </figure>
           </li>
           <li>
             <figure className="meal-photo">
-              <img src={image4}/>
+              <img src={image4} alt="meal-4"/>
             </figure>
           </li>
         </ul>
@@ -38,22 +38,22 @@ class FoodMenu extends Component{
         <ul className="meal-showcase">
           <li>
             <figure className="meal-photo">
-              <img src={image5}/>
+              <img src={image5} alt="meal-5"/>
             </figure>
           </li>
           <li>
             <figure className="meal-photo">
-              <img src={image6}/>
+              <img src={image6} alt="meal-6"/>
             </figure>
           </li>
           <li>
             <figure className="meal-photo">
-              <img src={image7}/>
+              <img src={image7} alt="meal-7"/>
             </figure>
           </li>
           <li>
             <figure className="meal-photo">
-              <img src={image8}/>
+              <img src={image8} alt="meal-8"/>
             </figure>
           </li>
         </ul>
