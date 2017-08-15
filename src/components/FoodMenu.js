@@ -14,47 +14,47 @@ class FoodMenu extends Component{
   render(){
     return(
       <div className="section-meals">
-        <ul className="meal-showcase">
+        <ul>
           <li>
-            <figure className="meal-photo">
+            <figure>
               <img src={image1} alt="meal-1"/>
             </figure>
           </li>
           <li>
-            <figure className="meal-photo">
+            <figure>
               <img src={image2} alt="meal-2"/>
             </figure>
           </li>
           <li>
-            <figure className="meal-photo">
+            <figure>
               <img src={image3} alt="meal-3"/>
             </figure>
           </li>
           <li>
-            <figure className="meal-photo">
+            <figure>
               <img src={image4} alt="meal-4"/>
             </figure>
           </li>
         </ul>
 
-        <ul className="meal-showcase">
+        <ul>
           <li>
-            <figure className="meal-photo">
+            <figure>
               <img src={image5} alt="meal-5"/>
             </figure>
           </li>
           <li>
-            <figure className="meal-photo">
+            <figure>
               <img src={image6} alt="meal-6"/>
             </figure>
           </li>
           <li>
-            <figure className="meal-photo">
+            <figure>
               <img src={image7} alt="meal-7"/>
             </figure>
           </li>
           <li>
-            <figure className="meal-photo">
+            <figure>
               <img src={image8} alt="meal-8"/>
             </figure>
           </li>
