@@ -32,7 +32,7 @@
 }
 
 .meal-photo img {
-  opacity: 0.7;
+  opacity: 0.4;
   position: absolute;
   width: 18%;
   height: auto;
@@ -49,14 +49,7 @@
   right: 10px;
 }
 
-.meal-photo img:hover,
-.meal-photo img:active,
-.meal-photo img:first-child:hover ~ img:nth-child(2),
-.meal-photo img:first-child:active ~ img:nth-child(2),
-.meal-photo img:first-child:hover ~ img:last-child,
-.meal-photo img:first-child:active ~ img:last-child,
-.meal-photo img:last-child:hover ~ img:first-child,
-.meal-photo img:last-child:active ~ img:first-child {
+.meal-photo:hover img {
   opacity: 1;
   transform: scale(1.15);
 }
