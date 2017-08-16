@@ -14,48 +14,56 @@ class FoodMenu extends Component{
   render(){
     return(
       <div className="section-meals">
-        <ul>
+        <ul className="meals-showcase">
           <li>
-            <figure>
-              <img src={image1} alt="meal-1"/>
+            <figure className="meal-photo">
+              <img className="image1" src={image1} alt="meal-1"/>
+              <img className="image2" src={image2} alt="meal-2"/>
             </figure>
           </li>
           <li>
-            <figure>
-              <img src={image2} alt="meal-2"/>
+            <figure className="meal-photo">
+              <img className="image1" src={image2} alt="meal-1"/>
+              <img className="image2" src={image2} alt="meal-2"/>
             </figure>
           </li>
           <li>
-            <figure>
-              <img src={image3} alt="meal-3"/>
+            <figure className="meal-photo">
+              <img className="image1" src={image3} alt="meal-1"/>
+              <img className="image2" src={image2} alt="meal-2"/>
             </figure>
           </li>
           <li>
-            <figure>
-              <img src={image4} alt="meal-4"/>
+            <figure className="meal-photo">
+              <img className="image1" src={image4} alt="meal-1"/>
+              <img className="image2" src={image2} alt="meal-2"/>
             </figure>
           </li>
         </ul>
 
         <ul>
           <li>
-            <figure>
-              <img src={image5} alt="meal-5"/>
+            <figure className="meal-photo">
+              <img className="image1" src={image5} alt="meal-1"/>
+              <img className="image2" src={image2} alt="meal-2"/>
             </figure>
           </li>
           <li>
-            <figure>
-              <img src={image6} alt="meal-6"/>
+            <figure className="meal-photo">
+              <img className="image1" src={image6} alt="meal-1"/>
+              <img className="image2" src={image2} alt="meal-2"/>
             </figure>
           </li>
           <li>
-            <figure>
-              <img src={image7} alt="meal-7"/>
+            <figure className="meal-photo">
+              <img className="image1" src={image7} alt="meal-1"/>
+              <img className="image2" src={image2} alt="meal-2"/>
             </figure>
           </li>
           <li>
-            <figure>
-              <img src={image8} alt="meal-8"/>
+            <figure className="meal-photo">
+              <img className="image1" src={image8} alt="meal-1"/>
+              <img className="image2" src={image2} alt="meal-2"/>
             </figure>
           </li>
         </ul>
