@@ -39,6 +39,11 @@ figure {
   transition: transform 0.5s, opacity 0.5s;
 }
 
+.meal-photo img:nth-child(2) {
+  bottom: 28%;
+  right: 10px;
+}
+
 .meal-photo img:last-child {
   bottom: 5%;
   right: 10px;

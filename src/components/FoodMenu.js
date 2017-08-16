@@ -19,24 +19,28 @@ class FoodMenu extends Component{
             <figure className="meal-photo">
               <img className="image1" src={image1} alt="meal-1"/>
               <img className="image2" src={image2} alt="meal-2"/>
+              <img className="image3" src={image3} alt="meal-3"/>
             </figure>
           </li>
           <li>
             <figure className="meal-photo">
               <img className="image1" src={image2} alt="meal-1"/>
               <img className="image2" src={image2} alt="meal-2"/>
+              <img className="image3" src={image3} alt="meal-3"/>
             </figure>
           </li>
           <li>
             <figure className="meal-photo">
               <img className="image1" src={image3} alt="meal-1"/>
               <img className="image2" src={image2} alt="meal-2"/>
+              <img className="image3" src={image3} alt="meal-3"/>
             </figure>
           </li>
           <li>
             <figure className="meal-photo">
               <img className="image1" src={image4} alt="meal-1"/>
               <img className="image2" src={image2} alt="meal-2"/>
+              <img className="image3" src={image3} alt="meal-3"/>
             </figure>
           </li>
         </ul>
@@ -46,24 +50,28 @@ class FoodMenu extends Component{
             <figure className="meal-photo">
               <img className="image1" src={image5} alt="meal-1"/>
               <img className="image2" src={image2} alt="meal-2"/>
+              <img className="image3" src={image3} alt="meal-3"/>
             </figure>
           </li>
           <li>
             <figure className="meal-photo">
               <img className="image1" src={image6} alt="meal-1"/>
               <img className="image2" src={image2} alt="meal-2"/>
+              <img className="image3" src={image3} alt="meal-3"/>
             </figure>
           </li>
           <li>
             <figure className="meal-photo">
               <img className="image1" src={image7} alt="meal-1"/>
               <img className="image2" src={image2} alt="meal-2"/>
+              <img className="image3" src={image3} alt="meal-3"/>
             </figure>
           </li>
           <li>
             <figure className="meal-photo">
               <img className="image1" src={image8} alt="meal-1"/>
               <img className="image2" src={image2} alt="meal-2"/>
+              <img className="image3" src={image3} alt="meal-3"/>
             </figure>
           </li>
         </ul>
