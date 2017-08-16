@@ -16,6 +16,12 @@ class FoodMenu extends Component{
   render(){
     return(
       <div className="section-meals">
+        <div className="row">
+          <h2>
+            - Menu -
+          </h2>
+        </div>
+
         <ul className="meals-showcase">
           <li>
             <figure className="meal-photo">

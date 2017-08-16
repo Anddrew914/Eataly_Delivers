@@ -1,5 +1,10 @@
 .section-meals {
   width: 100%;
+  margin-top: 25px;
+}
+
+.meals-showcase {
+  margin-top: -40px;
 }
 
 .section-meals ul {
