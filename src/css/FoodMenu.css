@@ -6,14 +6,14 @@
   width: 100%;
 }
 
-li {
+.section-meals li {
   width: 25%;
   display: block;
   float: left;
   overflow: hidden;
 }
 
-figure {
+.meals-showcase figure {
   padding: 0;
   margin: 0;
   background-color: #000;
@@ -51,34 +51,12 @@ figure {
 
 .meal-photo img:hover,
 .meal-photo img:active,
+.meal-photo img:first-child:hover ~ img:nth-child(2),
+.meal-photo img:first-child:active ~ img:nth-child(2),
 .meal-photo img:first-child:hover ~ img:last-child,
 .meal-photo img:first-child:active ~ img:last-child,
 .meal-photo img:last-child:hover ~ img:first-child,
 .meal-photo img:last-child:active ~ img:first-child {
   opacity: 1;
   transform: scale(1.15);
-}
-
-.meal {
-  /* position: absolute; */
-  z-index: 0;
-}
-
-.btn-add-meal {
-  position: absolute;
-  width: 25%;
-  /* text-align: right; */
-  /* vertical-align: bottom; */
-  z-index: 1;
-  margin-right: 100px;
-  padding-right: 10px;
-}
-
-.parent {
-  position: relative;
-  top: 0;
-  left: 0;
-}
-
-.image2 {
 }

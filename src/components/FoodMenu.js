@@ -45,7 +45,7 @@ class FoodMenu extends Component{
           </li>
         </ul>
 
-        <ul>
+        <ul className="meals-showcase">
           <li>
             <figure className="meal-photo">
               <img className="image1" src={image5} alt="meal-1"/>
