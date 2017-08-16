@@ -19,30 +19,30 @@ class FoodMenu extends Component{
         <ul className="meals-showcase">
           <li>
             <figure className="meal-photo">
-              <img className="image1" src={image1} alt="meal-1"/>
-              <img className="image2" src={QuestionMark} alt="meal-2"/>
-              <img className="image3" src={Plus} alt="meal-3"/>
+              <img src={image1} alt="meal-1"/>
+              <img src={QuestionMark} alt="info button"/>
+              <img src={Plus} alt="add meal to cart button"/>
             </figure>
           </li>
           <li>
             <figure className="meal-photo">
-              <img className="image1" src={image2} alt="meal-1"/>
-              <img className="image2" src={QuestionMark} alt="meal-2"/>
-              <img className="image3" src={Plus} alt="meal-3"/>
+              <img src={image2} alt="meal-1"/>
+              <img src={QuestionMark} alt="info button"/>
+              <img src={Plus} alt="add meal to cart button"/>
             </figure>
           </li>
           <li>
             <figure className="meal-photo">
-              <img className="image1" src={image3} alt="meal-1"/>
-              <img className="image2" src={QuestionMark} alt="meal-2"/>
-              <img className="image3" src={Plus} alt="meal-3"/>
+              <img src={image3} alt="meal-1"/>
+              <img src={QuestionMark} alt="info button"/>
+              <img src={Plus} alt="add meal to cart button"/>
             </figure>
           </li>
           <li>
             <figure className="meal-photo">
-              <img className="image1" src={image4} alt="meal-1"/>
-              <img className="image2" src={QuestionMark} alt="meal-2"/>
-              <img className="image3" src={Plus} alt="meal-3"/>
+              <img src={image4} alt="meal-1"/>
+              <img src={QuestionMark} alt="info button"/>
+              <img src={Plus} alt="add meal to cart button"/>
             </figure>
           </li>
         </ul>
@@ -50,30 +50,30 @@ class FoodMenu extends Component{
         <ul className="meals-showcase">
           <li>
             <figure className="meal-photo">
-              <img className="image1" src={image5} alt="meal-1"/>
-              <img className="image2" src={QuestionMark} alt="meal-2"/>
-              <img className="image3" src={Plus} alt="meal-3"/>
+              <img src={image5} alt="meal-1"/>
+              <img src={QuestionMark} alt="info button"/>
+              <img src={Plus} alt="add meal to cart button"/>
             </figure>
           </li>
           <li>
             <figure className="meal-photo">
-              <img className="image1" src={image6} alt="meal-1"/>
-              <img className="image2" src={QuestionMark} alt="meal-2"/>
-              <img className="image3" src={Plus} alt="meal-3"/>
+              <img src={image6} alt="meal-1"/>
+              <img src={QuestionMark} alt="info button"/>
+              <img src={Plus} alt="add meal to cart button"/>
             </figure>
           </li>
           <li>
             <figure className="meal-photo">
-              <img className="image1" src={image7} alt="meal-1"/>
-              <img className="image2" src={QuestionMark} alt="meal-2"/>
-              <img className="image3" src={Plus} alt="meal-3"/>
+              <img src={image7} alt="meal-1"/>
+              <img src={QuestionMark} alt="info button"/>
+              <img src={Plus} alt="add meal to cart button"/>
             </figure>
           </li>
           <li>
             <figure className="meal-photo">
-              <img className="image1" src={image8} alt="meal-1"/>
-              <img className="image2" src={QuestionMark} alt="meal-2"/>
-              <img className="image3" src={Plus} alt="meal-3"/>
+              <img src={image8} alt="meal-1"/>
+              <img src={QuestionMark} alt="info button"/>
+              <img src={Plus} alt="add meal to cart button"/>
             </figure>
           </li>
         </ul>
