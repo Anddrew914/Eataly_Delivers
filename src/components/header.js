@@ -7,7 +7,7 @@ class Header extends React.Component {
       <header>
         <nav>
           <div className="row">
-            <img src={Logo} alt="Eataly-Logo" className="logo" />
+            <a href = "/"><img src={Logo} alt="Eataly-Logo" className="logo" /></a>
             <ul className="main-nav">
               <li><a href="signup">Sign Up</a></li>
               <li><a href="#">Sign In</a></li>
