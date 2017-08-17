@@ -9,7 +9,7 @@ class Header extends React.Component {
           <div className="row">
             <img src={Logo} alt="Eataly-Logo" className="logo" />
             <ul className="main-nav">
-              <li><a href="#">Sign Up</a></li>
+              <li><a href="signup">Sign Up</a></li>
               <li><a href="#">Sign In</a></li>
               <li><a href="#">Admin</a></li>
               <li><a href="#">Cart</a></li>

@@ -1,4 +1,3 @@
-"use strict"
 import React from 'react'
 import '../css/grid.css'
 import '../css/ionicons.css'
