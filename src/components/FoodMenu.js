@@ -16,7 +16,8 @@ import image8 from '../images/8.jpg';
 class FoodMenu extends Component{
 
   render(){
-    const mappleConfig = { shadow: true, tipPosition: 25 }
+    const mappleConfigLeft = { shadow: true, tipPosition: 25 }
+    const mappleConfigRight = { shadow: true, tipPosition: 75 }
 
     return(
       <div className="section-meals">
@@ -28,7 +29,7 @@ class FoodMenu extends Component{
 
         <ul className="meals-showcase">
           <li>
-            <MappleToolTip {...mappleConfig}>
+            <MappleToolTip {...mappleConfigLeft}>
               <div>
                 <figure className="meal-photo">
                   <img src={image1} alt="meal-1"/>
@@ -42,7 +43,7 @@ class FoodMenu extends Component{
             </MappleToolTip>
           </li>
           <li>
-            <MappleToolTip {...mappleConfig}>
+            <MappleToolTip {...mappleConfigLeft}>
               <div>
                 <figure className="meal-photo">
                   <img src={image2} alt="meal-1"/>
@@ -56,7 +57,7 @@ class FoodMenu extends Component{
             </MappleToolTip>
           </li>
           <li>
-            <MappleToolTip {...mappleConfig}>
+            <MappleToolTip {...mappleConfigRight}>
               <div>
                 <figure className="meal-photo">
                   <img src={image3} alt="meal-1"/>
@@ -70,7 +71,7 @@ class FoodMenu extends Component{
             </MappleToolTip>
           </li>
           <li>
-            <MappleToolTip {...mappleConfig}>
+            <MappleToolTip {...mappleConfigRight}>
               <div>
                 <figure className="meal-photo">
                   <img src={image4} alt="meal-1"/>
@@ -87,7 +88,7 @@ class FoodMenu extends Component{
 
         <ul className="meals-showcase">
           <li>
-            <MappleToolTip direction={'bottom'} {...mappleConfig}>
+            <MappleToolTip direction={'bottom'} {...mappleConfigLeft}>
               <div>
                 <figure className="meal-photo">
                   <img src={image5} alt="meal-1"/>
@@ -95,13 +96,13 @@ class FoodMenu extends Component{
                 </figure>
               </div>
               <div>
-                <h4>Wonder Steak</h4>
+                <h4>Wonder Steak $15</h4>
                 <p>Wonderfully done</p>
               </div>
             </MappleToolTip>
           </li>
           <li>
-            <MappleToolTip {...mappleConfig}>
+            <MappleToolTip direction={'bottom'} {...mappleConfigLeft}>
               <div>
                 <figure className="meal-photo">
                   <img src={image6} alt="meal-1"/>
@@ -115,7 +116,7 @@ class FoodMenu extends Component{
             </MappleToolTip>
           </li>
           <li>
-            <MappleToolTip {...mappleConfig}>
+            <MappleToolTip direction={'bottom'} {...mappleConfigRight}>
               <div>
                 <figure className="meal-photo">
                   <img src={image7} alt="meal-1"/>
@@ -129,7 +130,7 @@ class FoodMenu extends Component{
             </MappleToolTip>
           </li>
           <li>
-            <MappleToolTip {...mappleConfig}>
+            <MappleToolTip direction={'bottom'} {...mappleConfigRight}>
               <div>
                 <figure className="meal-photo">
                   <img src={image8} alt="meal-1"/>
