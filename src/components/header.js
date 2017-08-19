@@ -1,21 +1,11 @@
 import React from 'react'
-import Logo from '../images/Eataly-Logo.jpg'
+import NavigationBar from './NavigationBar';
 
 class Header extends React.Component {
   render(){
     return(
-      <header>
-        <nav>
-          <div className="row">
-            <a href = "/"><img src={Logo} alt="Eataly-Logo" className="logo" /></a>
-            <ul className="main-nav">
-              <li><a href="signup">Sign Up</a></li>
-              <li><a href="#">Sign In</a></li>
-              <li><a href="#">Admin</a></li>
-              <li><a href="#">Cart</a></li>
-            </ul>
-          </div>
-        </nav>
+      <header className='header-component'>
+        <NavigationBar />
         <div className="hero-text-box">
           <h1> Eataly Delivers! </h1>
           <a className="btn btn-full" href="#">About us</a>
@@ -26,5 +16,3 @@ class Header extends React.Component {
   }
 }
 export default Header
-
-export {Logo}
