@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import '../css/BasicSetup.css';
 import '../css/FoodMenu.css';
+import '../assets/vendor/css/tooltipster.bundle.min.css';
 import QuestionMark from '../fonts/QuestionMark.png';
 import Plus from '../fonts/Plus.png';
 import image1 from '../images/1.jpg';

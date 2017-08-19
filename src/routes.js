@@ -4,7 +4,7 @@ import {render} from 'react-dom'
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import Header from './components/header'
 import Section from './components/section'
-import FoodMenu from './components/foodMenu'
+import FoodMenu from './components/FoodMenu'
 import Signup from './components/signup'
 
 const routes = (
