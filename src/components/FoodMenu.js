@@ -3,7 +3,6 @@ import '../css/BasicSetup.css';
 import '../css/FoodMenu.css';
 import '../assets/vendor/css/tooltipster.bundle.min.css';
 import MappleToolTip from 'reactjs-mappletooltip';
-import QuestionMark from '../fonts/QuestionMark.png';
 import Plus from '../fonts/Plus.png';
 import image1 from '../images/1.jpg';
 import image2 from '../images/2.jpg';
@@ -33,7 +32,6 @@ class FoodMenu extends Component{
               <div>
                 <figure className="meal-photo">
                   <img src={image1} alt="meal-1"/>
-                  <img src={QuestionMark} alt="info button"/>
                   <img src={Plus} alt="add meal to cart button"/>
                 </figure>
               </div>
@@ -48,7 +46,6 @@ class FoodMenu extends Component{
               <div>
                 <figure className="meal-photo">
                   <img src={image2} alt="meal-1"/>
-                  <img src={QuestionMark} alt="info button"/>
                   <img src={Plus} alt="add meal to cart button"/>
                 </figure>
               </div>
@@ -63,7 +60,6 @@ class FoodMenu extends Component{
               <div>
                 <figure className="meal-photo">
                   <img src={image3} alt="meal-1"/>
-                  <img src={QuestionMark} alt="info button"/>
                   <img src={Plus} alt="add meal to cart button"/>
                 </figure>
               </div>
@@ -78,7 +74,6 @@ class FoodMenu extends Component{
               <div>
                 <figure className="meal-photo">
                   <img src={image4} alt="meal-1"/>
-                  <img src={QuestionMark} alt="info button"/>
                   <img src={Plus} alt="add meal to cart button"/>
                 </figure>
               </div>
@@ -96,7 +91,6 @@ class FoodMenu extends Component{
               <div>
                 <figure className="meal-photo">
                   <img src={image5} alt="meal-1"/>
-                  <img src={QuestionMark} alt="info button"/>
                   <img src={Plus} alt="add meal to cart button"/>
                 </figure>
               </div>
@@ -111,7 +105,6 @@ class FoodMenu extends Component{
               <div>
                 <figure className="meal-photo">
                   <img src={image6} alt="meal-1"/>
-                  <img src={QuestionMark} alt="info button"/>
                   <img src={Plus} alt="add meal to cart button"/>
                 </figure>
               </div>
@@ -126,7 +119,6 @@ class FoodMenu extends Component{
               <div>
                 <figure className="meal-photo">
                   <img src={image7} alt="meal-1"/>
-                  <img src={QuestionMark} alt="info button"/>
                   <img src={Plus} alt="add meal to cart button"/>
                 </figure>
               </div>
@@ -141,7 +133,6 @@ class FoodMenu extends Component{
               <div>
                 <figure className="meal-photo">
                   <img src={image8} alt="meal-1"/>
-                  <img src={QuestionMark} alt="info button"/>
                   <img src={Plus} alt="add meal to cart button"/>
                 </figure>
               </div>
