@@ -11,23 +11,18 @@ class App extends Component {
   render() {
     return (
       <div className='App'>
-
-        <Route exact path='/' render={() => {
-          return(
-            <div>
-              <Header />
-              <Section />
-              <FoodMenu />
-            </div>
-          )
-        }}/>
-        <Route exact path='/signin' render={() => {
+        <Route
+          exact path='/' render={() => {
+          return(<div><Header /><Section /><FoodMenu /></div>)}}
+        />
+        <Route
+          exact path='/signin' render={() => {
           return(<SignIn />)}}
         />
-        <Route exact path='/signup' render={() => {
+        <Route
+          exact path='/signup' render={() => {
           return(<SignUp />)}}
         />
-
       </div>
     );
   }

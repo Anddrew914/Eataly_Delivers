@@ -5,24 +5,22 @@ import { Link } from 'react-router-dom';
 class NavigationBar extends React.Component {
   render(){
     return(
-      <div>
-        <nav>
-          <div className="row">
-            <Link to="/">
-              <img src={Logo}
-                alt="Eataly-Logo"
-                className="logo"
-              />
-            </Link>
-            <ul className="main-nav">
-              <li><Link to='/signup'>Sign Up</Link></li>
-              <li><Link to='/signin'>Sign In</Link></li>
-              <li><a href="#">Admin</a></li>
-              <li><a href="#">Cart</a></li>
-            </ul>
-          </div>
-        </nav>
-      </div>
+      <nav>
+        <div className="row">
+          <Link to="/">
+            <img src={Logo}
+              alt="Eataly-Logo"
+              className="logo"
+            />
+          </Link>
+          <ul className="main-nav">
+            <li><Link to='/signup'>Sign Up</Link></li>
+            <li><Link to='/signin'>Sign In</Link></li>
+            <li><a href="#">Admin</a></li>
+            <li><a href="#">Cart</a></li>
+          </ul>
+        </div>
+      </nav>
     )
   }
 }
