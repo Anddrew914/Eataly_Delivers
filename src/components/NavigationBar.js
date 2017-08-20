@@ -1,27 +1,31 @@
-import React from 'react'
-import Logo from '../images/Eataly-Logo.jpg'
+import React from 'react';
+import Logo from '../images/Eataly-Logo.jpg';
+import { Link } from 'react-router-dom';
 
 class NavigationBar extends React.Component {
   render(){
     return(
+      <div>
         <nav>
           <div className="row">
-            <a href="/">
+            <Link to="/">
               <img src={Logo}
                 alt="Eataly-Logo"
                 className="logo"
               />
-            </a>
+            </Link>
             <ul className="main-nav">
-              <li><a href="signup">Sign Up</a></li>
-              <li><a href="#">Sign In</a></li>
+              <li><Link to='/signup'>Sign Up</Link></li>
+              <li><Link to='/signin'>Sign In</Link></li>
               <li><a href="#">Admin</a></li>
               <li><a href="#">Cart</a></li>
             </ul>
           </div>
         </nav>
+      </div>
     )
   }
 }
+
 export default NavigationBar;
 export {Logo}

@@ -1,11 +1,12 @@
-import React from 'react'
+import React from 'react';
 import NavigationBar from './NavigationBar';
 
 class Header extends React.Component {
   render() {
     return(
-      <header className='header-component'>
+      <header>
         <NavigationBar />
+
         <div className="hero-text-box">
           <h1>Eataly Delivers!</h1>
           <a className="btn btn-full" href="#">About us</a>

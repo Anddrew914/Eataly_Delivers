@@ -1,11 +1,13 @@
 import React from 'react';
 import NavigationBar from './NavigationBar';
+import '../index.css';
 
 class SignIn extends React.Component {
   render() {
     return(
-      <header className='header-component'>
+      <header>
         <NavigationBar />
+
         <div className="hero-text-box">
           <h1>Sign In</h1>
         </div>
