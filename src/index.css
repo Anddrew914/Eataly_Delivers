@@ -14,6 +14,16 @@ html {
   text-rendering: optimizeLegibility;
 }
 
+.clearfix {
+  zoom: 1;
+}
+.clearfix::after {
+  content: '.';
+  clear: both;
+  display: block;
+  height: 0;
+  visibility: hidden;
+}
 /*---------Reusable Components---------*/
 
 .row {
@@ -140,6 +150,7 @@ header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0,0,0, 0.7)), url(./images/Eataly-Hero.jpg);
   background-position: center;
   background-size: cover;
+  background-attachment: fixed;
   height: 100vh;
 }
 
@@ -158,10 +169,18 @@ header {
   float: left;
 }
 
+nav {
+  transition: all 0.2s;
+  -webkit-transition: all 0.2s;
+  z-index: 9999;
+}
+
 .main-nav {
   margin-top: 30px;
   float: right;
   list-style: none;
+  transition: all 0.2s;
+  -webkit-transition: all 0.2s;
 }
 
 .main-nav li {
@@ -178,9 +197,44 @@ header {
   font-size: 80%;
   border-bottom: 2px solid transparent;
   transition: border-bottom 0.2s;
+  -webkit-transition: border-bottom 0.2s;
+  
 }
 
 .main-nav li a:hover,
 .main-nav li a:active {
   border-bottom: 2px solid #e67e22;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.96);
+  box-shadow: 0 2px 2px #efefef;
+}
+
+.sticky .main-nav li a:link,
+.sticky .main-nav li a:visited {
+  margin-top: 0;
+  padding: 5px 0;
+  color: #555;  
+}
+
+.sticky .logo {
+  margin-top: 0px;
+  height: 50px;
+  width: auto;
+  float: left;
+}
+
+.sticky .main-nav {
+  margin-top: 5px;
+}
+
+.sticky .main-nav li {
+  display: inline-block;
+  margin-top: 8px;
+  margin-bottom: 0;
 }

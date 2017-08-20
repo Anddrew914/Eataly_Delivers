@@ -20,14 +20,14 @@ class FoodMenu extends Component{
     const mappleConfigRight = { shadow: true, tipPosition: 75 }
 
     return(
-      <div className="section-meals">
+      <div className="section-meals">   
         <div className="row">
           <h2>
             - Menu -
           </h2>
         </div>
 
-        <ul className="meals-showcase">
+        <ul className="meals-showcase clearfix">
           <li>
             <MappleToolTip {...mappleConfigLeft}>
               <div>
@@ -86,7 +86,7 @@ class FoodMenu extends Component{
           </li>
         </ul>
 
-        <ul className="meals-showcase">
+        <ul className="meals-showcase clearfix">
           <li>
             <MappleToolTip direction={'bottom'} {...mappleConfigLeft}>
               <div>

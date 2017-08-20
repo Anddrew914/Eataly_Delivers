@@ -1,11 +1,20 @@
 import React from 'react';
 import Logo from '../images/Eataly-Logo.jpg';
 import { Link } from 'react-router-dom';
+import Waypoint from 'react-waypoint';
 
 class NavigationBar extends React.Component {
+
+
+  constructor(props) {
+    super(props);
+    this.state = {'class': ''};
+}
+
   render(){
     return(
-      <nav>
+      <div>
+      <nav className = {this.state.class}>
         <div className="row">
           <Link to="/">
             <img src={Logo}
@@ -21,6 +30,13 @@ class NavigationBar extends React.Component {
           </ul>
         </div>
       </nav>
+      <Waypoint onLeave={({ previousPosition, currentPosition, event }) => {
+        console.log('left')
+      this.setState({class:'sticky'})}}
+                onEnter={({ previousPosition, currentPosition, event }) => {
+        console.log('enter')
+      this.setState({class:''})}}/> 
+      </div>
     )
   }
 }

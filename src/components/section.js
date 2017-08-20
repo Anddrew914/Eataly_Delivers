@@ -1,11 +1,14 @@
 import React from 'react'
 import '../css/grid.css'
 import '../css/ionicons.css'
-
+import Waypoint from 'react-waypoint';
+import header from './header'
+import nav from './header'
 class Section extends React.Component {
   render(){
     return(
       <section className="features">
+
         <div className="row">
           <h2> About Us </h2>
           <p className="long-copy">

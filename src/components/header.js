@@ -1,4 +1,6 @@
-import React from 'react';
+import React from 'react'
+import Logo from '../images/Eataly-Logo.jpg'
+import Waypoint from 'react-waypoint';
 import NavigationBar from './NavigationBar';
 
 class Header extends React.Component {
@@ -6,12 +8,11 @@ class Header extends React.Component {
     return(
       <header>
         <NavigationBar />
-
         <div className="hero-text-box">
           <h1>Eataly Delivers!</h1>
           <a className="btn btn-full" href="#">About us</a>
-          <a className="btn btn-ghost" href="#">Menu</a>
-        </div>
+          <a className="btn btn-ghost" href="#">Menu</a> 
+        </div> 
       </header>
     )
   }
