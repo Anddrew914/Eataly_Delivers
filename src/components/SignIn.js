@@ -1,20 +1,19 @@
 import React from 'react';
 import NavigationBar from './NavigationBar';
+import '../index.css';
 
-class Header extends React.Component {
+class SignIn extends React.Component {
   render() {
     return(
       <header>
         <NavigationBar />
 
         <div className="hero-text-box">
-          <h1>Eataly Delivers!</h1>
-          <a className="btn btn-full" href="#">About us</a>
-          <a className="btn btn-ghost" href="#">Menu</a>
+          <h1>Sign In</h1>
         </div>
       </header>
     )
   }
 }
 
-export default Header;
+export default SignIn;

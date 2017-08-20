@@ -1,16 +1,19 @@
-import React, {Component} from 'react';
-import '../css/BasicSetup.css';
-import '../css/FoodMenu.css';
+import React from 'react';
+import NavigationBar from './NavigationBar';
+import '../index.css';
 
-
-class Signup  extends Component{
-  render(){
+class SignUp extends React.Component {
+  render() {
     return(
-          <h2>
-            - Sign Up -
-          </h2>        
+      <header>
+        <NavigationBar />
+
+        <div className="hero-text-box">
+          <h1>Sign Up</h1>
+        </div>
+      </header>
     )
   }
 }
 
-export default Signup;
+export default SignUp;
